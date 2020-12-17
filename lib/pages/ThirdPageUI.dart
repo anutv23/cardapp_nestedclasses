@@ -20,8 +20,11 @@ class _DetailPageState extends State<DetailPage> {
       child: Scaffold(
         backgroundColor: Colors.pink[50],
         body: Column(children: [
+<<<<<<< HEAD
 
         
+=======
+>>>>>>> ac94fbb1533531140a010f439123c134f5a7f901
           Center(
             child: Padding(
               padding: const EdgeInsets.all(8.0),
@@ -65,7 +68,11 @@ class _DetailPageState extends State<DetailPage> {
           ),
           Container(
             height: 40,
+<<<<<<< HEAD
             width: 200,
+=======
+            width: 300,
+>>>>>>> ac94fbb1533531140a010f439123c134f5a7f901
             decoration: BoxDecoration(
               shape: BoxShape.rectangle,
               borderRadius: BorderRadius.circular(20),
@@ -74,17 +81,28 @@ class _DetailPageState extends State<DetailPage> {
             child: Padding(
               padding: const EdgeInsets.all(8.0),
               child: Row(
+<<<<<<< HEAD
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   Text(
                     "Standard",
+=======
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text(
+                    "Bouquet - Standard",
+>>>>>>> ac94fbb1533531140a010f439123c134f5a7f901
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                       color: Colors.white,
                     ),
                   ),
                   Text(
+<<<<<<< HEAD
                     widget.detailsInfo.varPrice,
+=======
+                    "£29.99",
+>>>>>>> ac94fbb1533531140a010f439123c134f5a7f901
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                       color: Colors.white,
